@@ -1,0 +1,14 @@
+{
+  "name": "morphscreen",
+  "description": "Add MorphScreen to an app: a model's answers drawn as UI while they stream, the key kept on the server, your own components, and every known mistake with its fix.",
+  "version": "0.1.0",
+  "author": {
+    "name": "MorphScreen",
+    "email": "support@morphscreen.com",
+    "url": "https://morphscreen.com"
+  },
+  "homepage": "https://morphscreen.com/docs/coding-agents",
+  "repository": "https://github.com/morphscreen/skills",
+  "license": "Apache-2.0",
+  "keywords": ["generative-ui", "llm", "nextjs", "react", "streaming", "ag-ui", "morphscreen"]
+}

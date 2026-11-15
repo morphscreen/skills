@@ -1,0 +1,15 @@
+{
+  "name": "morphscreen",
+  "description": "MorphScreen's plugins for coding agents: generative UI where a model answers with charts, tables, forms and your own components, drawn while it streams.",
+  "owner": {
+    "name": "MorphScreen",
+    "email": "support@morphscreen.com"
+  },
+  "plugins": [
+    {
+      "name": "morphscreen",
+      "source": "./plugins/morphscreen",
+      "description": "Add MorphScreen to an app: a model's answers drawn as UI while they stream, the key kept on the server, your own components, and every known mistake with its fix."
+    }
+  ]
+}
