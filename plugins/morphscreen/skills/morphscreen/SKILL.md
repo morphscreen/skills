@@ -26,8 +26,8 @@ Keys: free at https://app.morphscreen.com (no card). The free plan runs `deepsee
 ## Fast path: Next.js with the App Router
 
 ```sh
-npx morphscreen init      # installs the SDK, writes the route, a chat page at /morphscreen, the core copy step, MORPHSCREEN_KEY= in .env.local
-npx morphscreen doctor    # every check with its fix; --json for you to read, --offline to skip the network
+npx morphscreen@0.1.0 init      # installs the SDK, writes the route, a chat page at /morphscreen, the core copy step, MORPHSCREEN_KEY= in .env.local
+npx morphscreen@0.1.0 doctor    # every check with its fix; --json for you to read, --offline to skip the network
 ```
 
 `init` never overwrites a file and is safe to run twice. Then the key goes in `.env.local` (ask the user for it, or tell them where to get one; never invent one), and the app's dev server shows the chat at `/morphscreen`. Move `<MorphScreenChat />` wherever the user wants it.
@@ -44,7 +44,7 @@ Describe each in a pack (JSON), send the pack to the API with every call, give t
 
 ## Verify
 
-1. `npx morphscreen doctor --json`: `ok: true`.
+1. `npx morphscreen@0.1.0 doctor --json`: `ok: true`.
 2. The app builds (`next build`, `vite build`).
 3. In the browser: ask "compare three phones under $500" and watch for a heading, a table or cards drawing while it streams, and no console errors.
 

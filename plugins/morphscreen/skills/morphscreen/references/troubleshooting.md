@@ -1,6 +1,6 @@
 # When something's wrong
 
-`npx morphscreen doctor` finds most of these by itself.
+`npx morphscreen@0.1.0 doctor` finds most of these by itself.
 
 | Symptom | Cause | Fix |
 |---|---|---|
